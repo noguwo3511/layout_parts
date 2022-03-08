@@ -7,22 +7,23 @@ table.graph {
 }
 
 table.graph,
-table.graph th {
+table.graph th,
+table.graph td {
   border: solid 1px #dedede;
   padding: 10px 0;
 }
 
-table.graph tr:first-child,
+table.graph thead,
 table.graph th:first-child {
   background-color: #2244aa;
   color: white;
 }
 
-table.graph tr:nth-child(2n+3) {
+table.graph tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-table.graph tr:last-child {
+table.graph tbody tr:last-child {
   border-top: dotted 2px;
 }
 /* q2が終わったら

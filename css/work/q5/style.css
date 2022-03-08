@@ -1,5 +1,72 @@
 @charset "UTF-8";
 
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q5_white {
+  width: 400px;
+}
+
+.q5_float {
+  float: left;
+  margin-left: 60px;
+}
+
+.q5_float:first-child {
+  margin-left: 0;
+}
+
+.q5_table {
+  display: table;
+}
+
+.q5_table_cell {
+  display: table-cell;
+  padding-left: 60px;
+}
+
+.q5_table_cell:first-child {
+  padding-left: 0;
+}
+
+.q5_block {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.q5_block:first-child {
+  margin-left: 0;
+}
+
+.q5_font {
+  font-size: 0;
+}
+
+.q5_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.q5-5_block {
+  display: inline-block;
+  /* margin-left: 30px; */
+}
+
+/* .q5-5_block:first-child {
+  margin-left: 0;
+} */
+
+.q5_white_calc {
+  width: calc((100% - 50px) / 3);
+  margin-left: 25px;
+}
+
+.q5_white_calc:first-child {
+  margin-left: 0;
+}
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */

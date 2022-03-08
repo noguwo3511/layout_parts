@@ -8,14 +8,7 @@
   position: relative;
 }
 
-.one_box,
-.two_box,
-.three_box,
-.four_box,
-.five_box,
-.six_box,
-.seven_box,
-.eight_box {
+.q2_box {
   height: 100px;
   width: 100px;
   position: absolute;

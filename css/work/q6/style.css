@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+.layout_main_section_contents {
+  display: flex;
+}
+
+.image_car {
+  width: 300px;
+  margin-left: 50px;
+}
+
+.image_car:first-child {
+  margin-left: 0;
+}
+
+
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */

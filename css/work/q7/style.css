@@ -1,1 +1,39 @@
 @charset "UTF-8";
+
+.q7_flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.speech_bubble {
+  width: 500px;
+  border: 5px solid #222;
+  margin-left: 35px;
+  border-radius: 30px;
+  padding: 20px;
+  word-break: break-all;
+  position: relative;
+}
+
+.speech_bubble::before,
+.speech_bubble::after {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  left: 0;
+  width: 0;
+  height: 0;
+  bottom: 20px;
+
+}
+
+.speech_bubble::before {
+  left: -45px;
+  border-right-color: #222;
+}
+
+.speech_bubble::after {
+  left: -37px;
+  border-right-color: white;
+}
